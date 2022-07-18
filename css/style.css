@@ -1,7 +1,72 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto' , sans-serif;
 }
 
+:root {
+  --color-green : #43ba7f;
+  --color-light-green: #18eda5;
+  --color-text: #212741;
+  --color-orange: #ff511a;
+  --color-bg-light: #212741;
+  --color-bg-dark : #181d30;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+/* btn styles */
+
+
+.btn {
+  padding: 1.5rem 4rem;
+  margin: 0rem 1rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+
+.btn-green {
+  background: var(--color-green);
+  color: white;
+
+}
+
+.btn-orange {
+  background: var(--color-orange);
+  color: white;
+}
+
+
+
+
+/* temporary codes */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+}
